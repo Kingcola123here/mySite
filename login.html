@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="backgroundimg.png" alt="" class="background-img">
+    <div class="login" id="login">
+        <h2>Login</h2>
+        <hr>
+        <form action="" id="login-form">
+            <input type="text" placeholder="Username" id="username"><br>
+            <span class="empty1 error-message" id="empty1">Please enter username</span>
+            <span class="incorrect1 error-message" id="incorrect1">Username incorrect</span>
+            <input type="password" placeholder="Password" id="password"><br>
+            <span class="empty3 error-message" id="empty3">Please enter password</span>
+            <span class="incorrect3 error-message" id="incorrect3">Password incorrect</span>
+            <div class="loginfeatures">
+                <div class="rememberme">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+                <a href="#">Forgot password?</a>
+            </div>
+            <br>
+            <div class="submit">
+            <button type="submit">Submit</button>
+            </div>
+        </form>
+        <p>Don't have a account yet?<button id="register-btn"> Register</button></p>
+    </div>
+    <div class="signup" id="signup1">
+        <h2>Sign Up</h2>
+        <hr>
+        <form action="" id="signup-form">
+            <input type="text" placeholder="Username" id="signup-username"><br>
+            <span class="emptyusernamesignup error-message" id="emptyusernamesignup">Please enter username</span>
+            <input type="password" placeholder="Password" id="signup-password"><br>
+            <span class="emptypasswordsignup error-message" id="emptypasswordsignup">Please enter password</span>
+            <input type="password" placeholder="Re enter password" id="re-enterpassword"><br>
+            <span class="passwordnotmatch error-message" id="passwordnotmatch">Password do not match</span>
+            <input type="email" placeholder="email" id="email"><br>
+            <span class="emptyemail error-message" id="emptyemail">Please enter email</span>
+            <input type="text" placeholder="phone" id="phone"><br>
+            <span class="emptyphone error-message" id="emptyphone">Please enter Phone number</span>
+            <div class="loginfeatures">
+                <div class="rememberme">
+                <input type="checkbox" id="signup-remember">
+                <label for="signup-remember">Remember me</label>
+            </div>
+                <a href="#">Forgot password?</a>
+            </div>
+            <br>
+            <div class="submit">
+            <button type="submit">Submit</button>
+            </div>
+        </form>
+        <p>Already have an account?<button id="login-btn"> Login</button></p>
+    </div>
+    <script>
+        const loginForm = document.getElementById('login-form');
+        const signupForm = document.getElementById('signup-form');  
+        const registerBtn = document.getElementById('register-btn');
+        const loginBtn = document.getElementById('login-btn');
+
+       
+
+        loginForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const remember = document.getElementById('remember').checked;
+            event.preventDefault();
+            document.querySelectorAll('.error-message').forEach(message => {
+                message.style.display = 'none';
+            let isValid = true;
+
+            if (username === '') {
+                document.getElementById('empty1').style.display ="block";
+                isValid = false;
+            }
+            if (password === '') {
+                document.getElementById('empty3').style.display ="block";
+                isValid = false;
+            }
+            if (username !== 'Ram' && username !== '') {
+                document.getElementById('incorrect1').style.display ="block";
+                isValid = false;
+            }
+            if (password !== 'narayan' && password !== '') {
+                document.getElementById('incorrect3').style.display ="block";
+                isValid = false;
+            }
+            
+            if (isValid) {
+                window.location.href = 'index.html';
+            }
+            });
+        });
+
+
+          
+        signupForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const username = document.getElementById('signup-username').value;
+    const password = document.getElementById('signup-password').value;
+    const repassword = document.getElementById('re-enterpassword').value;
+    const email = document.getElementById('email').value; // Fixed: Use value instead of checked
+    const phone = document.getElementById('phone').value; // Fixed: Use value instead of checked
+    let isValid = true;
+
+    document.querySelectorAll('.error-message').forEach(message => {
+        message.style.display = 'none';
+    });
+
+    if (username === '') {
+        document.getElementById('emptyusernamesignup').style.display = "block";
+        isValid = false;
+    }
+    if (password === '') {
+        document.getElementById('emptypasswordsignup').style.display = "block";
+        isValid = false;
+    }
+    if (repassword !== password) {
+        document.getElementById('passwordnotmatch').style.display = "block";
+        isValid = false;
+    }
+    if (email === '') { // Fixed: Check if email is empty
+        document.getElementById('emptyemail').style.display = "block";
+        isValid = false;
+    }
+    if (phone === '') { // Fixed: Check if phone is empty
+        document.getElementById('emptyphone').style.display = "block";
+        isValid = false;
+    }
+
+    if (isValid) {
+        // Submit the form or redirect to another page
+        window.location.href = 'login.html';
+    }
+});
+
+        registerBtn.addEventListener('click', () => {
+            document.getElementById('login').style.display ="none";
+            document.getElementById('signup1').style.display ="block";
+        });
+
+        loginBtn.addEventListener('click', () => {
+            document.getElementById('signup1').style.display ="none";
+            document.getElementById('login').style.display ="block";
+        });
+
+    </script>
+</body>
+</html>

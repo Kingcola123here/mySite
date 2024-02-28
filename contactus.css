@@ -1,0 +1,3032 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.our-story {
+    text-align: center;
+    padding: 50px 0;
+    background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .our-story img{
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .ourstory{
+    width: 500px;
+    text-align: left;
+  }
+
+  .ourstory .shopstory{
+    display: none;
+    color: white;
+    text-align: justify;
+    font-size: 1.4rem;
+  }
+  
+  .our-story-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #288891, #4602ff); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+  }
+  
+  .our-story-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .our-story-button,
+  .our-story-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .our-story-button {
+    background-image: linear-gradient(to right, #288891, #4602ff); /* Specify your gradient colors here */
+    color: #fff;
+  }
+  
+  .our-story-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .our-story-link {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  .our-story-link:hover {
+    background-color: #f5f5f5;
+  }
+
+  .our-mission{
+    width: 100%;
+    height: 77vh;
+    background-color: #fff;
+    padding-top: 7rem;
+  }
+
+  .ourmission{
+    width: 65%;
+    height: 32rem;
+    background: radial-gradient(circle at center, #474F7A, #1F2544);
+    margin: auto;
+    border-radius: 10px;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Example shadow */
+  }
+
+  .ourmission h2{
+    color: white;
+    font-size: 3.2rem;
+      background-image: linear-gradient(to right, #005eff, #fffb02); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+  }
+
+  .ourmissioncardlist{
+    width: 90%;
+    height: 20rem;
+    background: radial-gradient(circle at center, #474F7A, #1F2544);
+    margin: auto;
+    display: flex;
+    gap: 10px;
+  }
+
+  .ourmissioncard{
+    height: 100%;
+    width: 33%;
+    background: radial-gradient(circle at center, #474F7A, #1F2544);
+    line-height: 30px;
+    text-align: left;
+    
+  }
+
+  .ourmissioncard img{
+    width: 90%;
+    height: 50%;
+    margin-left: 0.77rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  .ourmissioncard h3{
+      background-image: linear-gradient(to right, #476deb, #bc0d79); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    margin-left: 0.77rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .ourmissioncard p{
+   color: white;
+   margin-top: 0.77rem;
+    margin-left: 0.77rem;
+    font-size: 1.2rem;
+  }
+
+  .our-perfumes{
+    width: 100%;
+    height: 140vh;
+    background-color: #FFF;
+    padding-top: 7rem;
+  }
+
+  
+  .ourperfume{
+    width: 65%;
+    height: 50rem;
+    background: radial-gradient(circle at center, #474F7A, #1F2544);
+    margin: auto;
+    border-radius: 10px;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Example shadow */
+  }
+
+  .ourperfume h2{
+    color: white;
+    font-size: 2.9rem;
+      background-image: linear-gradient(to right, #4bdd4b, #1748e7); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    margin-left: 3.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .ourperfumecardlist{
+    width: 90%;
+    height: 20rem;
+    background: radial-gradient(circle at center, #474F7A, #1F2544);
+    margin: auto;
+    display: flex;
+    gap: 10px;
+  }
+
+  
+  .ourperfumecard{
+    height: 100%;
+    width: 50%;
+    line-height: 26px;
+    text-align: left;
+    background: radial-gradient(circle at center, #474F7A, #1F2544);
+    
+  }
+
+  .ourperfumecard img{
+    width: 90%;
+    height: 25rem;
+    margin-top: 2rem;
+    margin-left: 0.77rem;
+    border-radius: 10px;
+    background: radial-gradient(circle at center, #474F7A, #1F2544);
+    }
+  .ourperfumecard h3{
+      background-image: linear-gradient(to right, #07812e, #4602ff); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    margin-left: 0.77rem;
+    font-size: 1.5rem;
+  }
+  .ourperfumecard p{
+   color: white;
+   margin-top: 0.77rem;
+    margin-left: 0.77rem;
+    font-size: 1.2rem;
+  }
+
+  .aboutusmore{
+    width: 100%;
+    height: auto;
+       background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+    padding-top: 2rem;
+  }
+
+  .ingredients{
+    width: 65%;
+    height: 35rem;
+    background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%); 
+    margin: auto;
+    border-radius: 20px; 
+    display: flex;
+  }
+
+  .ingredients h2{
+    color: white;
+    font-size: 3.2rem;
+      background-image: linear-gradient(to right, #e04141, #4602ff); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    margin-left: 3.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .leftingridients{
+    flex: 0 0 75%;
+  }
+
+  .rightingridients{
+    flex: 0 0 25%;
+  }
+
+  .rightingridients img{
+    width: 20rem;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .ingridientlist{
+    width: 90%;
+    height: 15rem;
+    background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+    margin: auto;
+    display: flex;
+    gap: 50px;
+
+  }
+
+  .ingridientcard{
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    line-height: 26px;
+    text-align: left;
+    
+  }
+
+  .ingridientcard h3{
+      background-image: linear-gradient(to right, #ffaf03, #4400ff); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    margin-left: 0.77rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .ingridientcard p{
+   color: white;
+   margin-top: 0.77rem;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .ingridientstitle{
+    display: flex;
+    align-items: center;
+  }
+
+  .ingridientnumber{
+    padding: 0.5rem;
+    border: 1px outset rgba(0,0,0,0.5);
+  }
+
+  .leftingridients .ingridientcard.third{
+    height: 10rem;
+    width: 89.9%;
+       background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+
+    line-height: 26px;
+    text-align: left;
+    margin-left: 2.35rem;
+    
+  }
+
+  .sustainibility{
+    width: 65%;
+    height: 16rem;
+    background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%); 
+    margin: auto;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    border-radius: 20px; 
+  }
+
+  .sustainibility h2{
+    color: white;
+    font-size: 3.2rem;
+      background-image: linear-gradient(to right, #288891, #4602ff); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    margin-left: 3.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .sustainibilitylist {
+    width: 100%;
+    height: 10rem;
+    background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+    display: flex;
+    gap: 50px;
+
+  }
+
+  .sustainibilitycard{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    margin-top: 2rem;
+    line-height: 26px;
+    text-align: left;
+    border: 2px outset rgba(0,0,0,0.5);
+    
+  }
+
+  
+  .sustainibilitycard h3{
+      background-image: linear-gradient(to right, #288891, #4602ff); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 0.77rem;
+  }
+  .sustainibilitycard p{
+   color: white;
+   margin-top: 0.77rem;
+    font-size: 1.2rem;
+    margin-left: 0.77rem;
+  }
+
+  .first{
+    margin-left: 3.7rem;
+  }
+
+  .customerreviewcard{
+    height: auto;
+    width: 30%;
+       background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+    margin-top: 2rem;
+    line-height: 26px;
+    text-align: left;
+    border: 2px inset rgba(0,0,0,0.5);
+    
+  }
+
+ 
+  
+  .customerreviewcard h3{
+      background-image: linear-gradient(to right, #13d751, #47d3e5); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 0.77rem;
+  }
+  .customerreviewcard p{
+   color: white;
+   margin-top: 0.77rem;
+    font-size: 1.2rem;
+    margin-left: 0.77rem;
+  }
+
+  .customerreviewlist {
+    width: 100%;
+    height: 14rem;
+    background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+    display: flex;
+    gap: 50px;
+
+  }
+
+   .shippingdetail{
+    width: 65%;
+    height: 25rem;
+    background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    border-radius: 20px; 
+    display: flex;
+    gap: 40px;
+  }
+
+  .leftshippingdetails{
+    flex: 0 0 40%;
+    margin-left: 4rem;
+  }
+
+  .rightshippingdetails{
+    flex: 0 0 50%;
+  }
+
+  .leftshippingdetails img{
+    height: 98%;
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .rightshippingdetails h2{
+      background-image: linear-gradient(to right, #e82e08, #d9dc2c); /* Specify your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the actual text color */
+    background-clip: none;
+    filter: brightness(200%);
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-left: 0.77rem;
+
+  }
+  .rightshippingdetails ul{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    line-height: 2rem;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    box-sizing: border-box;
+    font-style: normal;
+    scroll-behavior: smooth;
+       background: radial-gradient(circle at center, #1F2544 0%, #0D111F 80%);
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: 2;
+
+   
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(0, 0, 0, .3);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+
+
+}
+
+
+.topnav a img{
+  height: 2rem;
+  object-fit: cover;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu{
+  margin-left: 16rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu .menu-search{
+  margin-left: 19rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.menu .menu-search input {
+  max-width: 0;
+  border-radius: 5px 5px 5px 5px;
+  height: 2.8rem;
+  border: none;
+  position: absolute;
+  top: 3.5rem;
+  right: 19rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: max-width 0.9s ease;
+  width: 0;
+}
+
+.search_box {
+  opacity: 0;
+  visibility: hidden;
+  max-width: 0;
+  border-radius: 5px;
+  height: 10rem;
+  border: none;
+  position: absolute;
+  top: 6.5rem;
+  right: 19rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: max-width 0.5s ease, opacity 0.9s ease;
+  width: 0;
+}
+
+
+.menu .menu-search .searchshow:hover input,
+.menu .menu-search input:focus {
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;
+
+
+}
+.menu .menu-search .searchshow:hover .search_box{
+  opacity: 1;
+  visibility: visible;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;
+
+}
+
+
+.heart-products{  
+  max-width: 0;
+  border-radius: 5px 5px 5px 5px;
+  height: 10rem;
+  border: none;
+  position: absolute;
+  top: 3.5rem;
+  right: 16rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: max-width 0.9s ease;
+  width: 0;
+}
+.cart-products{  
+  max-width: 0;
+  border-radius: 5px 5px 5px 5px;
+  height: 10rem;
+  border: none;
+  position: absolute;
+  top: 3.5rem;
+  right: 12rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: max-width 0.9s ease;
+  width: 0;
+}
+
+.setting-products{  
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  border-radius: 5px;
+  height: 10rem;
+  border: none;
+  position: absolute;
+  top: 3.5rem;
+  right: 12rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: max-height 0.5s ease, opacity 0.9s ease;
+  height: 0;
+}
+
+
+.menu .menu-search .heartshow:hover .heart-products{
+  opacity: 1;
+  visibility: visible;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;
+}
+.menu .menu-search .cartshow:hover .cart-products{
+  opacity: 1;
+  visibility: visible;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;
+}
+.menu .menu-search .settingshow:hover .setting-products{
+  opacity: 1;
+  visibility: visible;
+  width: 16rem;
+  height: 24rem;
+  max-height: 24rem;
+  border: 1px solid black;
+}
+
+.menu .menu-search a{
+  
+  color: orange;
+}
+
+
+
+/* Add an active class to highlight the current page */
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  display: flex;
+  transition: max-height 0.3s ease-in, opacity 0.5s ease-in, visibility 0.3s ease-in;
+  gap: 3rem;
+ 
+}
+
+
+.dropdown-content ul{
+  list-style: none;
+  line-height: 20px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  max-height: 20em;
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  gap: 3rem;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 321px) and (min-width: 200px){
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav .menu{
+    background-color: black;
+  }
+
+  .topnav .menu .active{
+    display: none;
+  }
+
+
+  .topnav.responsive .logo-img{
+    width: 24rem;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+ 
+
+  .topnav .menu .menu-search{
+    display: none;
+  }
+  .topnav.responsive .menu .menu-search{
+    display: block;
+  }
+
+  .menu{
+    margin-left: 0;
+    display: block;
+    width: 20rem;
+  }
+  .topnav.responsive .menu .menu-search{
+    margin-left: 0;
+
+  }
+
+  .menu .menu-search input{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .menu-search .search_box{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .heartshow .heart-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .cartshow .cart-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .settingshow .setting-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .menu-search .searchshow:hover input,
+.menu .menu-search input:focus {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+  .menu .menu-search .searchshow:hover .search_box {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+  .menu .heartshow:hover .heart-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+ .menu .cartshow:hover .cart-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+.settingshow:hover ~ .cartshow{
+  display: none; 
+}
+  .menu .settingshow:hover .setting-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 321px) and (min-width: 200px){
+  .topnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    overflow-y: auto;
+    max-height: 40rem;
+  }
+  .topnav.responsive {position: relative; flex-direction: column; background-color: black;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 86%;
+    top: .3rem;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 20rem;
+
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-y: auto;
+    max-height: 12rem;
+  }
+
+  .topnav.responsive .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul li{
+    display: none;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul:hover li{
+    display: block;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul{
+    line-height: 10px;
+  }
+  
+    
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative; width: 20rem;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+   
+}
+@media screen and (max-width: 376px) and (min-width: 321px){
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav .menu{
+    background-color: black;
+  }
+
+  .topnav .menu .active{
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav .menu .menu-search{
+    display: none;
+  }
+  .topnav.responsive .menu .menu-search{
+    display: block;
+  }
+
+  .menu{
+    margin-left: 0;
+    display: block;
+    width: 24rem;
+  }
+  .topnav.responsive .menu .menu-search{
+    margin-left: 0;
+
+  }
+
+  .menu .menu-search input{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .menu-search .search_box{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .heartshow .heart-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .cartshow .cart-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .settingshow .setting-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .menu-search .searchshow:hover input,
+.menu .menu-search input:focus {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+  .menu .menu-search .searchshow:hover .search_box {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+  .menu .heartshow:hover .heart-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+ .menu .cartshow:hover .cart-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+.settingshow:hover ~ .cartshow{
+  display: none; 
+}
+  .menu .settingshow:hover .setting-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+.ingridientlist{
+  margin-left: 0;
+}
+.leftingridients h2{
+  margin-left: 1.5rem;
+}
+.leftingridients .ingridientcard.third{
+  margin-left: 0rem;
+}
+.ingredients .rightingridients img{
+  margin-left: 10%;
+}
+.customerreviewlist{
+  margin-left: -2rem;
+}
+
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 376px) and (min-width: 321px){
+  .topnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    overflow-y: auto;
+    max-height: 30rem;
+  }
+  .topnav.responsive {position: relative; flex-direction: column; background-color: black;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 89%;
+    top: .9rem;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 26rem;
+
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-y: auto;
+    max-height: 12rem;
+  }
+
+  .topnav.responsive .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul li{
+    display: none;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul:hover li{
+    display: block;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul{
+    line-height: 10px;
+  }
+  
+    
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative; width: 26rem;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+   
+}
+@media screen and (max-width: 600px) and (min-width: 376px){
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav .menu{
+    background-color: black;
+  }
+
+  .topnav .menu .active{
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav .menu .menu-search{
+    display: none;
+  }
+  .topnav.responsive .menu .menu-search{
+    display: block;
+  }
+
+  .menu{
+    margin-left: 0;
+    display: block;
+    width: 24rem;
+  }
+  .topnav.responsive .menu .menu-search{
+    margin-left: 0;
+
+  }
+
+  .menu .menu-search input{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .menu-search .search_box{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .heartshow .heart-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .cartshow .cart-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .settingshow .setting-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .menu-search .searchshow:hover input,
+.menu .menu-search input:focus {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+  .menu .menu-search .searchshow:hover .search_box {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+  .menu .heartshow:hover .heart-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+ .menu .cartshow:hover .cart-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+.settingshow:hover ~ .cartshow{
+  display: none; 
+}
+  .menu .settingshow:hover .setting-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) and (min-width: 376px){
+  .topnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    overflow-y: auto;
+    max-height: 40rem;
+  }
+  .topnav.responsive {position: relative; flex-direction: column; background-color: black;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 89%;
+    top: .9rem;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 26rem;
+
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-y: auto;
+    max-height: 12rem;
+  }
+
+  .topnav.responsive .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul li{
+    display: none;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul:hover li{
+    display: block;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul{
+    line-height: 10px;
+  }
+  
+    
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative; width: 26rem;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+   
+}
+@media screen and (max-width: 800px) and (min-width: 601px){
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav .menu{
+    background-color: black;
+  }
+
+  .topnav.responsive .logo-img{
+   width: 45rem;
+  }
+
+  .topnav .menu .active{
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav .menu .menu-search{
+    display: none;
+  }
+  .topnav.responsive .menu .menu-search{
+    display: block;
+  }
+
+  .menu{
+    margin-left: 0;
+    display: block;
+    width: 40rem;
+  }
+  .topnav.responsive .menu .menu-search{
+    margin-left: 0;
+
+  }
+
+  .menu .menu-search input{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .menu-search .search_box{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .heartshow .heart-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .cartshow .cart-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .settingshow .setting-products{
+    left: .7rem;
+    top: 0;
+  }
+  .menu .menu-search .searchshow:hover input,
+.menu .menu-search input:focus {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+  .menu .menu-search .searchshow:hover .search_box {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+  .menu .heartshow:hover .heart-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+ .menu .cartshow:hover .cart-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+
+  .menu .settingshow:hover .setting-products {
+  position: relative;
+  width: 24rem;
+  max-width: 24rem;
+  border: 1px solid black;  
+}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) and (min-width: 601px){
+  .topnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    overflow-y: auto;
+    max-height: 50rem;
+  }
+  .topnav.responsive{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    overflow-y: auto;
+    max-height: 40rem;
+  }
+  .topnav.responsive {position: relative; flex-direction: column; background-color: black;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 89%;
+    top: .9rem;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 26rem;
+
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-y: auto;
+    max-height: 12rem;
+  }
+
+  .topnav.responsive .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul li{
+    display: none;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul:hover li{
+    display: block;
+  }
+  .topnav.responsive .dropdown .dropdown-content ul{
+    line-height: 10px;
+  }
+  
+    
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative; width: 40rem;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+   
+}
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 200px) and (max-width:321px){
+ 
+
+
+
+
+
+
+
+    .slide_featuress i{
+     font-size: 70%;
+    }
+    .slide_featuress{
+      margin-top: -1rem;
+    }
+
+
+
+
+    main .product-title{
+      font-size: 1rem;
+    }
+
+ 
+    
+
+
+
+
+
+
+
+  
+
+
+    .product-card .product-image{
+      height: 4rem;
+    }
+    .product-slider .product-card{
+      width: 200px;
+    }
+    .product-card .product-title{
+      font-size: 0.8em;
+    }
+    .product-card .product-price{
+      font-size: 0.8em;
+    }
+
+
+
+
+    footer .row{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer .column{
+     width: 14rem;
+     text-align: center;
+    }
+  
+    footer .sliderfeatureproducts .product-image{
+      height: 5rem;
+   
+    }
+    footer .sliderfeatureproducts .product-card{
+      width: 200px;
+      padding: 0px;
+      margin: auto;
+    }
+    footer .slidermostviewproducts .product-card{
+      width: 200px;
+      padding: 0px;
+      margin: auto;
+    }
+    
+    footer .row2 h3{
+      font-size: 1rem;
+      text-align: center;
+      border-left: 1px solid grey;
+    }
+    footer .row2{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .overlay .overlay_container{
+      flex-direction: column;
+    }
+
+    .overlay .overlay_container{
+      overflow-y: auto;
+     }
+  
+     .overlay .overlay_container .right{
+      flex: 0 0 50%;
+     }
+     .overlay .overlay_container .left{
+      flex: 0 0 10%;
+     }
+
+     .overlay .overlay_container .left .overlay_img{
+      height: 15rem;
+      width: 10rem;
+      margin-bottom: 2rem;
+     }
+     .overlay .overlay_container .left .overlay_img2{
+      height: 5rem;
+      width: 15rem;
+      margin: auto;
+      margin-bottom: 2rem;
+     }
+     .overlay .overlay_container .left .overlay_img img{
+      height: 15rem;
+     }
+     .overlay .overlay_container .left .overlay_img2 img{
+      height: 5rem;
+     }
+
+     .add-to-cart{
+      margin: auto;
+     }
+
+     main{
+      overflow: hidden;
+     }
+
+     .our-mission{
+      width: 113%;
+      height: 250vh;
+      background-color: rgb(243, 243, 243);
+      padding-top: 7rem;
+    }
+  
+    .ourmission{
+      height: 250vh;
+      width: 80%;
+      margin-left: 1rem;
+    }
+
+    .ourmissioncardlist{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .ourmissioncard{
+      width: 80%;
+      margin-top: 2rem;
+    }
+
+
+    main .our-story{
+      flex-direction: column;
+      margin-top: 2rem;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      width: 24rem;
+    }
+  
+    .our-perfumes{
+      width: 113%;
+      height: 200vh;
+      background-color: rgb(243, 243, 243);
+      padding-top: 7rem;
+    }
+
+    .ourperfume{
+      margin-left: 0;
+      height: 200rem;
+    }
+
+    .ourperfumecardlist{
+      flex-direction: column;
+      gap: 150px;
+    }
+
+    .ourperfumecard{
+      width: 100%;
+      height: 20rem;
+    }
+
+    .our-perfumes img{
+      height: 10rem;
+    }
+  
+    .ourperfume{
+      width: 90%;
+    }
+    .ingredients{
+      width: 65%;
+      height: 80rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      
+      border-radius: 20px; 
+      display: flex;
+      font-size: 50%;
+
+      flex-direction: column;
+      margin-left: -2rem;
+    }
+
+   
+
+    .rightingridients{
+      flex: 0 0 100%;
+    }
+  
+    .rightingridients img{
+      height: 20rem;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: -5rem;
+    }
+    .sustainibility{
+      width: 16rem;
+      height: 44rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      border-radius: 20px; 
+    }
+  
+    .sustainibility h2{
+      margin-left: -3rem;
+    }
+  
+    .first{
+      margin-left: 0rem;
+    }
+
+    .sustainibilitylist{
+      flex-direction: column;
+      width: 100%;
+      margin-left: -3rem;
+    }
+
+    .sustainibilitycard{
+      width: 90%;
+    }
+  
+    .customerreviewcard{
+      height: 18rem;
+      width: 90%;
+    }
+  
+    .shippingdetail{
+      width: 16rem;
+      height: 40rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      margin-top: 0rem;
+      margin-bottom: 2rem;
+      border-radius: 20px; 
+      display: flex;
+      gap: 40px;
+
+      flex-direction: column;
+    }
+  
+    .shippingdetail img{
+      height: 80%;
+      display: none;
+    }
+  
+    .our-story {
+      text-align: center;
+      padding: 50px 0;
+        background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .our-story img{
+      width: 70%;
+      height: 16rem;
+    }
+  
+    .ourstory{
+      width: 250px;
+      text-align: left;
+    }
+
+    .aboutusmore{
+      width: 425px;
+      overflow: hidden;
+    }
+
+    .customerreviewlist{
+      width: 16rem;
+      flex-direction: column;
+    }
+
+    .ingridientlist{
+      height: 30rem;
+      flex-direction: column;
+      margin-left: 0;
+      margin-bottom: 0;
+      gap: 0;
+    }
+
+    .ingridientcard{
+      width: 100%;
+    }
+
+}
+
+  @media only screen and (min-width: 321px) and (max-width:424px){
+
+    .slide_featuress i{
+      font-size: 70%;
+     }
+     .slide_featuress{
+      margin-top: -1.2rem;
+     }
+
+
+
+    main .product-title{
+      font-size: 1rem;
+    }
+
+ 
+
+    main .product-title{
+      font-size: 1rem;
+    }
+
+
+    
+
+    
+
+
+
+
+ 
+
+   
+
+  
+
+    .product-card .product-image{
+      height: 4rem;
+    }
+    .product-slider .product-card{
+      width: 300px;
+    }
+    .product-card .product-title{
+      font-size: 0.8em;
+    }
+    .product-card .product-price{
+      font-size: 0.8em;
+    }
+
+
+   
+
+
+
+  
+   
+    footer .row{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer .column{
+     width: 14rem;
+     text-align: center;
+    }
+  
+    footer .sliderfeatureproducts .product-image{
+      height: 5rem;
+   
+    }
+    footer .sliderfeatureproducts .product-card{
+      width: 200px;
+      padding: 0px;
+      margin: auto;
+    }
+    footer .slidermostviewproducts .product-card{
+      width: 200px;
+      padding: 0px;
+      margin: auto;
+    }
+    
+    footer .row2 h3{
+      font-size: 1rem;
+      text-align: center;
+      border-left: 1px solid grey;
+    }
+    footer .row2{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .overlay .overlay_container{
+      flex-direction: column;
+    }
+
+    .overlay .overlay_container{
+      overflow-y: auto;
+     }
+  
+     .overlay .overlay_container .right{
+      flex: 0 0 50%;
+     }
+     .overlay .overlay_container .left{
+      flex: 0 0 10%;
+     }
+
+     .overlay .overlay_container .left .overlay_img{
+      height: 15rem;
+      width: 10rem;
+      margin-bottom: 2rem;
+     }
+     .overlay .overlay_container .left .overlay_img2{
+      height: 5rem;
+      width: 15rem;
+      margin: auto;
+      margin-bottom: 2rem;
+     }
+     .overlay .overlay_container .left .overlay_img img{
+      height: 15rem;
+     }
+     .overlay .overlay_container .left .overlay_img2 img{
+      height: 5rem;
+     }
+
+     .add-to-cart{
+      margin: auto;
+     }
+
+     main{
+      overflow: hidden;
+     }
+
+     .our-mission{
+      width: 113%;
+      height: 220vh;
+      background-color: rgb(243, 243, 243);
+      padding-top: 7rem;
+    }
+  
+    .ourmission{
+      height: 220vh;
+      width: 80%;
+      margin-left: 1rem;
+    }
+
+    .ourmissioncardlist{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .ourmissioncard{
+      width: 80%;
+      margin-top: 2rem;
+    }
+
+
+    main .our-story{
+      flex-direction: column;
+      margin-top: 2rem;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      width: 24rem;
+    }
+  
+    .our-perfumes{
+      width: 113%;
+      height: 200vh;
+      background-color: rgb(243, 243, 243);
+      padding-top: 7rem;
+    }
+
+    .ourperfume{
+      margin-left: 0;
+      height: 200rem;
+    }
+
+    .ourperfumecardlist{
+      flex-direction: column;
+      gap: 150px;
+    }
+
+    .ourperfumecard{
+      width: 100%;
+      height: 20rem;
+    }
+
+    .our-perfumes img{
+      height: 10rem;
+    }
+  
+    .ourperfume{
+      width: 90%;
+    }
+    .ingredients{
+      width: 85%;
+      height: 60rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      
+      border-radius: 20px; 
+      display: flex;
+      font-size: 50%;
+
+      flex-direction: column;
+    }
+
+   
+
+    .rightingridients{
+      flex: 0 0 100%;
+    }
+  
+    .rightingridients img{
+      height: 20rem;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: -5rem;
+    }
+    .sustainibility{
+      width: 16rem;
+      height: 44rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      border-radius: 20px; 
+    }
+  
+    .sustainibility h2{
+      margin-left: -2rem;
+    }
+  
+    .first{
+      margin-left: 0rem;
+    }
+
+    .sustainibilitylist{
+      flex-direction: column;
+      width: 100%;
+      margin-left: -2rem;
+    }
+
+    .sustainibilitycard{
+      width: 90%;
+    }
+  
+    .customerreviewcard{
+      height: 18rem;
+      width: 90%;
+    }
+  
+    .shippingdetail{
+      width: 16rem;
+      height: 40rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      margin-top: 0rem;
+      margin-bottom: 2rem;
+      border-radius: 20px; 
+      display: flex;
+      gap: 40px;
+
+      flex-direction: column;
+    }
+  
+    .shippingdetail img{
+      height: 80%;
+      display: none;
+    }
+  
+    .our-story {
+      text-align: center;
+      padding: 50px 0;
+        background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .our-story img{
+      width: 70%;
+      height: 16rem;
+    }
+  
+    .ourstory{
+      width: 350px;
+      text-align: left;
+    }
+
+    .aboutusmore{
+      width: 425px;
+      overflow: hidden;
+    }
+
+    .customerreviewlist{
+      width: 16rem;
+      flex-direction: column;
+    }
+
+    .ingridientlist{
+      height: 20rem;
+      flex-direction: column;
+      margin-left: none;
+      margin-bottom: 0;
+      gap: 0;
+    }
+
+    .ingridientcard{
+      width: 100%;
+    }
+
+    .rightshippingdetails ul{
+      margin-left: 2rem;
+    }
+
+    .rightshippingdetails{
+      flex: 0 0 100%;
+    }
+
+    .shippingdetail{
+      width: 19rem;
+    }
+
+}
+
+@media only screen and (min-width: 424px) and (max-width: 500px){
+  
+
+    .slide_featuress i{
+      font-size: 90%;
+     }
+
+     .slide_featuress{
+      margin-top: -1.2rem;
+     }
+
+
+
+
+    
+
+
+
+
+   
+
+
+    .product-card .product-image{
+      height: 4rem;
+    }
+    .product-slider .product-card{
+      width: 350px;
+    }
+    .product-card .product-title{
+      font-size: 0.8em;
+    }
+    .product-card .product-price{
+      font-size: 0.8em;
+    }
+
+
+  
+
+
+    footer .row{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer .column{
+     width: 15rem;
+     text-align: center;
+    }
+  
+    footer .sliderfeatureproducts .product-image{
+      height: 5rem;
+   
+    }
+    footer .sliderfeatureproducts .product-card{
+      width: 200px;
+      padding: 0px;
+      margin: auto;
+    }
+    footer .slidermostviewproducts .product-card{
+      width: 200px;
+      padding: 0px;
+      margin: auto;
+    }
+    
+    footer .row2 h3{
+      font-size: 1rem;
+      text-align: center;
+      border-left: 1px solid grey;
+    }
+    footer .row2{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .overlay .overlay_container{
+      flex-direction: column;
+    }
+
+    .overlay .overlay_container{
+      overflow-y: auto;
+     }
+  
+     .overlay .overlay_container .right{
+      flex: 0 0 50%;
+     }
+     .overlay .overlay_container .left{
+      flex: 0 0 10%;
+     }
+
+     .overlay .overlay_container .left .overlay_img{
+      height: 15rem;
+      width: 10rem;
+      margin-bottom: 2rem;
+     }
+     .overlay .overlay_container .left .overlay_img2{
+      height: 5rem;
+      width: 15rem;
+      margin: auto;
+      margin-bottom: 2rem;
+     }
+     .overlay .overlay_container .left .overlay_img img{
+      height: 15rem;
+     }
+     .overlay .overlay_container .left .overlay_img2 img{
+      height: 5rem;
+     }
+
+     .add-to-cart{
+      margin: auto;
+     }
+
+     .our-mission{
+      width: 100%;
+      height: 220vh;
+      background-color: rgb(243, 243, 243);
+      padding-top: 7rem;
+    }
+  
+    .ourmission{
+      height: 220vh;
+      width: 90%;
+    }
+
+    .ourmissioncardlist{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .ourmissioncard{
+      width: 80%;
+      margin-top: 2rem;
+    }
+
+    main .our-story{
+      flex-direction: column;
+      margin-top: 2rem;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .our-perfumes{
+      width: 100%;
+      height: 160vh;
+      background-color: rgb(243, 243, 243);
+      padding-top: 7rem;
+    }
+
+    .our-perfumes img{
+      height: 20rem;
+    }
+  
+    .ourperfume{
+      width: 90%;
+    }
+    .ingredients{
+      width: 95%;
+      height: 60rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      border-radius: 20px; 
+      display: flex;
+      font-size: 50%;
+
+      flex-direction: column;
+    }
+
+    .rightingridients{
+      flex: 0 0 100%;
+    }
+  
+    .rightingridients img{
+      height: 20rem;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: -5rem;
+    }
+    .sustainibility{
+      width: 20rem;
+      height: 44rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      border-radius: 20px; 
+    }
+  
+    .sustainibility h2{
+      margin-left: 1rem;
+    }
+  
+    .first{
+      margin-left: 1rem;
+    }
+
+    .sustainibilitylist{
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .sustainibilitycard{
+      width: 90%;
+    }
+  
+    .customerreviewcard{
+      height: 18rem;
+      width: 90%;
+    }
+  
+    .shippingdetail{
+      width: 20rem;
+      height: 40rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      margin-top: 0rem;
+      margin-bottom: 2rem;
+      border-radius: 20px; 
+      display: flex;
+      gap: 40px;
+
+      flex-direction: column;
+    }
+  
+    .shippingdetail img{
+      height: 80%;
+      display: none;
+    }
+  
+    .our-story {
+      text-align: center;
+      padding: 50px 0;
+        background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .our-story img{
+      width: 70%;
+      height: 20rem;
+    }
+  
+    .ourstory{
+      width: 350px;
+      text-align: left;
+    }
+
+    .aboutusmore{
+      width: 425px;
+    }
+
+    .customerreviewlist{
+      width: 20rem;
+      flex-direction: column;
+    }
+
+    .ingridientlist{
+      height: 20rem;
+      flex-direction: column;
+      margin-left: none;
+      margin-bottom: 0;
+      gap: 0;
+    }
+
+    .ingridientcard{
+      width: 100%;
+    }
+
+
+  
+
+  
+}
+
+
+
+@media only screen and (min-width: 760px) and (max-width: 800px){
+    
+
+    .slide_featuress i{
+      font-size: 90%;
+     }
+
+     .slide_featuress{
+      margin-top: -1.2rem;
+     }
+
+
+    main .product-title{
+      font-size: 1rem;
+    }
+
+
+ 
+
+    .product-card .product-image{
+      height: 4rem;
+    }
+    .product-slider .product-card{
+      width: 152px;
+    }
+    .product-card .product-title{
+      font-size: 0.8em;
+    }
+    .product-card .product-price{
+      font-size: 0.8em;
+    }
+  
+
+    
+  
+  footer .row{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .column{
+   width: 30rem;
+   text-align: center;
+  }
+
+  footer .sliderfeatureproducts .product-image{
+    height: 5rem;
+ 
+  }
+  footer .sliderfeatureproducts .product-card{
+    width: 250px;
+    padding: 0px;
+    margin: auto;
+  }
+  footer .slidermostviewproducts .product-card{
+    width: 15.625rem;
+    padding: 0px;
+    margin: auto;
+  }
+  
+  footer .row2 h3{
+    font-size: .7rem;
+    width: 2rem;
+  }
+  .overlay .overlay_container{
+    overflow-y: auto;
+   }
+
+   .overlay .overlay_container .right{
+    flex: 0 0 50%;
+   }
+   .overlay .overlay_container .left{
+    flex: 0 0 10%;
+   }
+
+   .left .overlay_img2{
+    width: 20rem;
+    margin-top: 4rem;
+   }
+
+   .left .overlay_img{
+    width: 10rem;
+   }
+
+   .left .overlay_img img{
+    height: 24rem;
+   }
+
+   .our-mission{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(243, 243, 243);
+    padding-top: 7rem;
+  }
+
+  .ourmission{
+    height: 34rem;
+    width: 90%;
+  }
+
+  .our-perfumes{
+    width: 100%;
+    height: 160vh;
+    background-color: rgb(243, 243, 243);
+    padding-top: 7rem;
+  }
+
+  .ourperfume{
+    width: 90%;
+  }
+  .ingredients{
+    width: 95%;
+    height: 30rem;
+      background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    border-radius: 20px; 
+    display: flex;
+    font-size: 50%;
+  }
+
+  .rightingridients img{
+    height: 80%;
+    width: 100%;
+  }
+  .sustainibility{
+    width: 95%;
+    height: 20rem;
+      background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 20px; 
+  }
+
+  .sustainibility h2{
+    margin-left: 1rem;
+  }
+
+  .first{
+    margin-left: 1rem;
+  }
+
+  .customerreviewcard{
+    height: 18rem;
+  }
+
+  .shippingdetail{
+    width: 90%;
+    height: 25rem;
+      background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    border-radius: 20px; 
+    display: flex;
+    gap: 40px;
+  }
+
+  .shippingdetail img{
+    height: 80%;
+  }
+
+  .our-story {
+    text-align: center;
+    padding: 50px 0;
+      background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .our-story img{
+    width: 70%;
+  }
+
+  .ourstory{
+    width: 350px;
+    text-align: left;
+  }
+
+
+  
+
+   
+
+ 
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1030px){
+    
+
+    .product-card .product-image{
+      height: 5rem;
+    }
+    .product-slider .product-card{
+      width: 171px;
+    }
+    .product-card .product-title{
+      font-size: 0.8em;
+    }
+    .product-card .product-price{
+      font-size: 0.8em;
+    }
+
+    footer .sliderfeatureproducts .product-card{
+      width: 158px;
+      padding: 0px;
+    }
+    footer .slidermostviewproducts .product-card{
+      width: 158px;
+      padding: 0px;
+    }
+    footer .sliderfeatureproducts .product-card .product-title{
+      font-size: .7rem;
+    }
+    footer .slidermostviewproducts .product-card .product-title{
+      font-size: .7rem;
+
+    
+    }
+     .menu{
+      margin-left: 4rem;
+     }
+     .menu .menu-search{
+      margin-left: 6rem;
+     }
+
+     .menu a{
+      font-size: 1rem;
+     }
+
+     .menu .menu-search .heartshow .heart-products{
+      right: 2rem;
+     }
+     .menu .menu-search .cartshow .cart-products{
+      right: 2rem;
+     }
+     .menu .menu-search .settingshow .setting-products{
+      right: 2rem;
+     }
+
+     .overlay .overlay_container{
+      overflow-y: auto;
+     }
+
+     .overlay .overlay_container .right{
+      flex: 0 0 50%;
+     }
+
+     .left .overlay_img2{
+      width: 20rem;
+      margin-top: 4rem;
+     }
+
+     .our-mission{
+      width: 100%;
+      height: 110vh;
+      background-color: rgb(243, 243, 243);
+      padding-top: 7rem;
+    }
+
+    .ourmission{
+      height: 34rem;
+    }
+
+    .our-perfumes{
+      width: 100%;
+      height: 160vh;
+      background-color: rgb(243, 243, 243);
+      padding-top: 7rem;
+    }
+    .ingredients{
+      width: 85%;
+      height: 35rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      border-radius: 20px; 
+      display: flex;
+    }
+
+    .rightingridients img{
+      height: 80%;
+      width: 100%;
+    }
+    .sustainibility{
+      width: 85%;
+      height: 16rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      border-radius: 20px; 
+    }
+
+    .customerreviewcard{
+      height: 15rem;
+    }
+
+    .shippingdetail{
+      width: 85%;
+      height: 25rem;
+        background-color: rgba(0, 0, 0, 0.3);
+      margin: auto;
+      margin-top: 10rem;
+      margin-bottom: 2rem;
+      border-radius: 20px; 
+      display: flex;
+      gap: 40px;
+    }
+  
+  
+
+    
+  
+
+}
+/* header here */
+
+
+  
+  .product-info {
+    text-align: center;
+  }
+  
+  .product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .product-subtitle {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .product-price-old {
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  
+  .product-price-new {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .product-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .star {
+    font-size: 18px;
+    color: #f5a623;
+    margin-right: 2px;
+  }
+
+
+
+ 
+
+
+  .slide_featuress{
+    position: fixed;
+    color: #f5a623;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    display: none;
+    z-index: 99;
+    animation: feature 0.3s ease-in-out forwards;
+    transform: translateX(50%);
+  }
+
+  .slide_featuress i{
+    height: 1.5rem;
+    width: 1.5rem;
+    border:1px solid orange;
+    margin-left: .5rem;
+  }
+
+  .slide:hover .slide_featuress{
+    display: block;
+  }
+  
+  .slide_featuress i:hover{
+    background-color: rgb(54, 50, 50);
+  }
+
+
+  
+
+
+@keyframes feature {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.overlay {
+  display: none;
+  position: fixed; /* Position relative to the viewport */
+  top: 10%; /* Adjust top position as needed */
+  left: 15%; /* Adjust left position as needed */
+  width: 70vw; /* Cover 50% of the viewport width */
+  height: 89vh; /* Cover 70% of the viewport height */
+  background-color: black; /* Semi-transparent black */
+  z-index: 9999; /* Ensure it's above other content */
+
+ 
+}
+
+.overlay::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit-based browsers */
+}
+
+
+.website-content {
+  margin-top: 50px; /* Adjust according to your design */
+}
+
+
+
+
+
+
+
+
+
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: white;
+  text-align: center;
+  z-index: 99;
+
+
+
+
+}
+
+
+
+
+
+
+
+.text {
+  position: relative; /* Change from absolute to relative */
+  z-index: 2; /* Ensure text remains above the background */
+}
+
+
+.overlay_container {
+ width: 100%;
+ height: 100%;
+  padding: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;  
+}
+
+.left {
+  flex: 0 0 30%; /* flex-grow, flex-shrink, flex-basis */
+  background-color: #ffffff;
+}
+
+.right {
+  flex: 0 0 70%; /* flex-grow, flex-shrink, flex-basis */
+  background-color: #ffffff;
+}
+
+#closeOverlayBtn{
+  float: right;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+
+}
+
+
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #d30027;
+  margin-left: 10px;
+
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 24px;
+  margin-left: 10px;
+
+}
+
+.details-group {
+  margin-bottom: 16px;
+  margin-left: 10px;
+
+}
+
+.details-group label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.details-group span {
+  font-size: 14px;
+  color: #333;
+}
+
+.share-buttons {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.share-button {
+  display: inline-block;
+  margin-right: 16px;
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.add-to-cart {
+  width: 10rem;
+  display: block;
+  text-align: center;
+  padding: 12px 24px;
+  background-color: #d30027;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+#group-size{
+  width: 100%;
+  height: 2rem;
+}
+
+
+
+
+
+/* Hide the images by default */
+
+
+
+.product-listing {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: -1rem;
+  padding: 15px;
+}
+
+.productinfohere{
+  height: 100%;
+  width: 100%;
+  line-height: 30px;
+}
+
+.product-image {
+  width: 5rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.product-title {
+  font-size: .8em;
+  margin-bottom: 5px;
+}
+
+.product-price{
+  font-size: .9em;
+}
+
+
+
+
+
+footer {
+  width: 100%;
+  background-color: #232222;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.row2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.column {
+  width: 20%;
+  line-height: 35px;
+  margin-top: 5rem;
+}
+
+.sliderfeatureproducts .product-image{
+  height: 4rem;
+}
+.sliderfeatureproducts .product-card{
+  width: 224px;
+  padding: 0px;
+}
+.slidermostviewproducts .product-card{
+  width: 224px;
+  padding: 0px;
+}
+
+.slidermostviewproducts .product-image{
+  height: 4rem;
+}
+
+.row2{
+  margin-top: 4rem;
+}
+
+footer .row2 h3{
+  width: 8rem;
+  border-right: 1px solid gray;
+}
+
+.row3{
+  margin-top: 2rem;
+}
+
+.row , .row2, .row3{
+  color: white;
+}
+
+.slide{
+  box-shadow: none;
+}
+
+
+.slick-prev9, .slick-next9 {
+  z-index: 2;
+
+}
+
+.slick-prev9 {
+  left: 0!important;
+ 
+}
+
+.slick-next9 {
+  right: 0!important;
+}
+
+.overlay_img {
+  text-align: center;
+  width: 19rem;
+  height: 70%;
+  margin: 1rem auto;
+  z-index: 2;
+
+}
+.overlay_img2 {
+  width: 20rem;
+  height: 30%;
+  z-index: 1;
+
+}
+
+.overlay_img img{
+  width: 100%;
+  height: 100%;
+}
+.overlay_img2 img{
+  height: 9rem;
+}
+
+.quantity #group-size{
+  width: 12.5rem;
+}
+
+.share_product{
+  width: 50%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem auto;
+}
+
+.share_product a{
+  text-decoration: none;
+  color: blue;
+  font-size: 1.5rem;
+}
+
+

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="product.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="topnav" id="myTopnav">
+          <div class="logo-img">
+            <a href="#"><img src="logo.png" alt=""></a>
+          </div>
+          <div class="menu">
+          <a href="index.html" class="active">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Brands
+              <i class="bi bi-cheveron-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <ul>Men
+                <li><a href="product.html?brand=Versace">Versace</a></li>
+                <li><a href="product.html?brand=Hugo Boss">Hugo Boss</a></li>
+                <li><a href="product.html?brand=Jaguar">Jaguar</a></li>
+                <li><a href="product.html?brand=Armani">Armani</a></li>
+                <li><a href="#">Paco Rabbane</a></li>
+                <li><a href="#">Ralph Lauren</a></li>
+              </ul>
+              <ul>Women
+                <li><a href="#">Bvlgari</a></li>
+                <li><a href="#">Coach</a></li>
+                <li><a href="#">Kenzo</a></li>
+                <li><a href="#">D&G</a></li>
+                <li><a href="#">Jean Paul Gaultier</a></li>
+              </ul>
+              <ul>Unisex
+                <li><a href="#">Ajmal</a></li>
+                <li><a href="#">Calvin Klein</a></li>
+                <li><a href="#">The Body Shop</a></li>
+                <li><a href="#">Lattafa</a></li>
+              </ul>
+          </div>
+          
+        </div>
+          <a href="#news">Blog</a>
+          <a href="contactus.html">About Us</a>
+          <a href="aboutus.html">Contact Us</a>
+          
+        <div class="menu-search">
+          <div class="searchshow">
+          <a href="#"><i class="bi bi-search"></i></a>
+          <input type="text" placeholder="Your favourite Perfume">
+          <div class="search_box">
+            <p>Your search results</p>
+          </div>
+        </div>
+          <div class="heartshow">
+          <a href="#"><i class="bi bi-heart-fill"></i></a>
+          <div class="heart-products"></div>
+        </div>
+        <div class="cartshow">
+          <a href="#"><i class="bi bi-cart-fill"></i></a>
+          <div class="cart-products"></div>
+        </div>
+        <div class="settingshow">
+          <a href="#"><i class="bi bi-gear-fill"></i></a>
+          <div class="setting-products">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eligendi architecto perspiciatis tempora illum quos rem modi tenetur nulla fugiat iure, eveniet vero minus et, optio iste quisquam molestias,.</p>
+            <div class="login"><h3><a href="login.html">Log in</a></h3></div>
+          </div>
+          
+        </div>
+        </div>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+       
+        </div>
+      </header>
+      <main>
+        
+        <div class="titleinfo" id="title_banner">
+          
+      </div>
+      <div class="filter">
+        <div class="sorttitle"><h2>filter</h2></div>
+        <div class="sortfeature">
+          <button><p>Below < 1000</p></button>
+          <button><p>1000 ~ 2000</p></button>
+          <button><p>2000 ~ 3000</p></button>
+          <button><p>3000 ~ 4000</p></button>
+          <button><p>All</p></button>
+        </div>
+      </div>
+      <div class="productall" id="productall">
+
+      </div>
+      <div id="overlay" class="overlay">
+        <div class="overlay_container">
+          <div class="left">
+            <div class="overlay_img" id="overlay-img">
+           
+            </div>
+            <div class="overlay_img2" id="overlay-img2">
+          
+            </div>
+        </div>
+        <div class="right">
+          <button id="closeOverlayBtn" onclick="closeoverlay()"><i class="bi bi-x"></i></button>
+
+          <h2 class="title">DOLCE & GABBANA<br>The Only One</h2>
+          <div class="price">Rs. 5999</div>
+          <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, sunt perspiciatis assumenda architecto cumque non, quia quisquam quae ut obcaecati cum excepturi accusamus sapiente numquam quibusdam eum sequi? Veniam esse, minus asperiores sed maxime placeat. Dicta, culpa blanditiis! Doloribus, totam.
+          </div>
+          <div class="details-group">
+              <label for="size">SIZE</label>
+              <select name="" id="group-size">
+                <option value="">Select Size</option>
+                <option value="">10ml</option>
+              </select>
+          </div>
+          <div class="details-group">
+              <label for="fragrance">FRAGRANCE</label>
+              <select name="" id="group-size">
+                <option value="">Select fragnance</option>
+                <option value="">Rose</option>
+              </select>
+              </div>
+          <div class="details-group quantity">
+              <label for="fragrance">Quantity</label>
+              <select name="" id="group-size">
+                <option value="">Select Quantity</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+              </select>
+              </div>
+              <a class="add-to-cart" href="#">ADD TO CART</a>
+              <div class="share-buttons">
+                  <a class="share-button" href="#">SHARE THIS PRODUCT</a>
+              </div>
+              <div class="share_product">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-messenger"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-meta"></i></a>
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+      </main>
+      <footer>
+        <div class="row">
+          <div class="column">
+            <div class="logo"><img src="./logo.png" alt=""></div>
+            <p>Get all types of perfume from us within 2 day delivery. We can even order the perfumes which are not in our database. To do that kindly send a E-mail to the company's mail id.</p>
+            <address>
+              International Buiness Center,<br>
+              Vesu, Surat, Gujarat<br>
+              email: <a href="mailto:deo@gmail.com">deo@gmail.com</a><br>
+              Phone: <a href="tel:9856447394">918444495</a>
+            </address>
+          </div>
+          <div class="column">
+            <h3>INFORMATION</h3>
+    
+             <p> About Us</p>
+             <p> Prices drop</p>
+             <p> New products</p>
+             <p> Best sales</p>
+             <p> Terms & Conditions</p>
+             <p> Gift Certificates</p>
+             <p> My Account</p>
+             <p> Order History</p>
+             <p> Wish List</p>
+             <p> Specials</p>
+         
+          </div>
+          <div class="column">
+            <h3>FEATURED PRODUCSTS</h3>
+            <div class="sliderfeatureproducts product-slider" id="product-sliderfeaturedproducts">
+  
+             
+            </div>
+          </div>
+          <div class="column">
+            <h3>MOST VIEW PRODUCTS</h3>
+            <div class="slidermostviewproducts product-slider" id="product-slidermostviewproducts">
+  
+             
+            </div>
+          </div>
+        </div>
+        <div class="row2">
+  
+            <h3>Order History</h3>
+      
+  
+  
+            <h3>Wish List</h3>
+      
+  
+  
+            <h3>Site Map</h3>
+        
+  
+  
+            <h3>Affiliate</h3>
+     
+       
+  
+            <h3>News Letter</h3>
+  
+      
+        </div>
+        <div class="row3">
+            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        </div>
+      </footer>
+      
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      
+      <script src="product.js"></script>
+</body>
+</html>
